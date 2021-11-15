@@ -1,0 +1,113 @@
+.brand-story {
+    height: 956px;
+    background-color: var(--cerulean);
+    padding-top: 149px;
+    position: relative;
+    overflow: hidden;
+}
+
+.brand-story>img {
+    position: absolute;
+}
+
+.brand-story .text-box {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+}
+
+.brand-story h3 {
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    color: var(--sun-yellow);
+}
+
+.brand-story>.text-box>p {
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.88;
+    color: var(--sun-yellow);
+}
+
+/* --------------------------DRAW-------------------------- */
+
+#obj-1 {
+    top: 183px;
+    left: 169px;
+    z-index: 0;
+}
+
+#obj-2 {
+    top: 61px;
+    right: 256px;
+    z-index: 0;
+}
+
+#obj-3 {
+    top: 93px;
+    right: 171px;
+    z-index: 1;
+}
+
+#obj-4 {
+    top: 190px;
+    left: 1723px;
+    z-index: 0;
+}
+
+#obj-5 {
+    bottom: 186px;
+    right: -30px;
+    z-index: 1;
+}
+#obj-6 {
+    top: 415px;
+    left: 0;
+    z-index: 0;
+}
+#obj-7 {
+    top: 497px;
+    left: 190px;
+    z-index: 0;
+}
+
+.main-content {
+    position: relative;
+    top: 40px;
+    left: 333px;
+    z-index: 1;
+    display: inline-block;
+}
+
+.main-content .text-box {
+    width: 528px;
+    position: absolute;
+    top: 72px;
+    right: 68px;
+    text-align: left;
+}
+
+.main-content .text-box h5 {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 2.4;
+    text-align: left;
+    color: var(--black-three);
+}
+
+.main-content .text-box p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.88;
+    text-align: left;
+    color: var(--black-three);
+    font-family: NotoSansCJKkr;
+}
+
+.brand-story .see-more {
+    margin-top: 47px;
+}

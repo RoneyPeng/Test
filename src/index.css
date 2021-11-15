@@ -1,13 +1,177 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;1,800);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500);
+
+* {
+    font-family: 'Montserrat',sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Big tablet to 1200px; */
+@media only screen and (max-width:1200px){
+    header, .products, .best-products, .introduction, .brand-story, .issue, .video, footer {
+        width: 1774px;
+    }
+    .best-product__list {
+      flex-wrap: wrap;
+    }
+    .list-item{
+        width: 30%;
+    }
+    .list-product__item {
+        width: 24%;
+    }
+}
+ 
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+    .list-product__item {
+        width: 33%;
+    }
+}
+ 
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px){
+    .contact-sub .icon-social {
+        margin-top: 30px;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .icon-social img {
+        width: 100%;
+    }
+    .icon-social a {
+        width: 80px;
+    }
+    .contact-sub {
+        flex-wrap: wrap;
+    }
+    .contact-sub span {
+        font-size: 30px;
+        width: 100%;
+    }
+    .contact-detail__item h6 {
+        font-size: 33px;
+    }
+    .contact-wh>h6 {
+        font-size: 35px;
+    }
+    .contact-main a {
+        font-size: 30px;
+    }
+    .video {
+        height: 2015px;
+    }
+    #video {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 77px;
+    }
+    #new-obj-4{
+        top: 834px;
+        left: 373px;
+    }
+    #new-obj-5 {
+        right: 300px;
+    }
+    #new-obj-6 {
+        left: 260px;
+    }
+    .issue {
+        height: 1400px;
+    }
+    .brand-story .see-more {
+        width: 330px;
+        height: 90px;
+    }
+    .brand-story {
+        height: 1200px;
+    }
+    .main-content {
+        left: 0;
+    }
+    .main-content img {
+        height: 624px;
+    }
+    .main-content .text-box {
+        width: 40% !important;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .main-content .text-box p {
+        font-size: 27px;
+    }
+    .main-content .text-box h5 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 70px !important;
+    }
+    .detail img {
+        width: 45px;
+        height: 40px;
+    }
+    .list-product__item h4 {
+        font-size: 40px;
+    }
+    .list-product__item span {
+        font-size: 35px;
+    }
+    #banner {
+        height: 882px;
+    }
+    #logo {
+        width: 36%;
+        max-height: fit-content;
+        align-self: center;
+    }
+    .navbar__list {
+        flex-wrap: wrap;
+    }
+    .navbar__list li>div {
+        display: none;
+    }
+    .navbar__list li {
+        font-size: 35px;
+    }
+    .item-rank {
+        width: 200px;
+        height: 200px;
+    }
+    .see-more {
+        width: 400px;
+        height: 200px;
+        font-size: 50px;
+    }
+    .describe-box p {
+        font-size: 50px;
+        width: 80%;
+    }
+    .introduction {
+        height: 1000px;
+    }
+    .text-box {
+        width: 70% !important;
+    }
+    .title {
+        font-size: 125px;
+    }
+    .description {
+        font-size: 50px !important;
+    }
+    .best-products{
+        height: 4000px;
+    }
+    .best-product__list {
+        justify-content: center;
+        margin-top: 334px;
+    }
+    .list-item{
+        margin-bottom: 70px;
+        width: 100%;
+    }
+    .list-product__item {
+        width: 49%;
+    }
+    .brand-story>.text-box>p,.issue .text-box p {
+        font-size: 35px;
+    }
 }

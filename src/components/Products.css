@@ -1,0 +1,137 @@
+.best-products {
+    background: url('../img/bes-bg.png') no-repeat center;
+    position: relative;
+    background-size: cover;
+    height: 1073px;
+}
+
+.best-products .text-box {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    text-align: center;
+    width: 665px;
+    transform: translateX(-50%);
+}
+
+.best-products .title {
+    color: var(--bright-orange);
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.best-products .description {
+    font-size: 19px;
+    line-height: 1.6;
+    color: var(--bright-orange);
+}
+
+.best-product__list {
+    display: flex;
+    position: absolute;
+    top: 362px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.list-item {
+    position: relative;
+    width: 460px;
+}
+
+.item-rank {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 92px;
+    height: 92px;
+}
+
+.item-products {
+    width: 100%;
+}
+
+.describe-box {
+    width: 80%;
+    height: 15%;
+    padding: 7px 8px 6px 27px;
+    border: solid 3px #020001;
+    background-color: var(--white);
+    transform: translate(15%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.describe-box p {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.25;
+    text-align: left;
+    color: var(--black-three);
+    width: 200px;
+}
+
+.describe-box img {
+    cursor: pointer;
+}
+
+.list {
+    text-align: center;
+    padding-bottom: 143px;
+}
+
+.list-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1570px;
+    margin: 142px auto 0;
+}
+
+.list-product__item {
+    width: 19%;
+    margin-bottom: 30px;
+}
+
+.list-product__item>img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.list-product__item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.94;
+    color: var(--black-three);
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.list-product__item .detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail img {
+    width: 19px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.list-product__item span {
+    font-size: 16px;
+    line-height: 2.19;
+    text-align: left;
+    color: var(--black-three);
+}
+
+.see-more {
+    width: 199px;
+    height: 60px;
+    border: solid 3px #020001;
+    background-color: var(--white);
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 1.09;
+    color: var(--black-three);
+}

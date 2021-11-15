@@ -1,0 +1,26 @@
+.introduction {
+    background: url('../img/introduction-bg.png') no-repeat center;
+    background-size: cover;
+    height: 576px;
+    position: relative;
+}
+
+.introduction .text-box {
+    position: absolute;
+    top: 174px;
+    left: 173px;
+    width: 667px;
+}
+
+.introduction .text-box .title {
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 59px;
+}
+
+.introduction .text-box .description {
+    font-size: 19px; /* Trong lúc làm thì em thấy cỡ chữ 20px nó hơi lớn nên em hạ xuống 1px để nhìn giống design hơn ạ */
+    line-height: 1.75;
+    text-align: left;
+    color: var(--white);
+}

@@ -1,0 +1,40 @@
+header {
+    height: 1080px;
+}
+
+#banner {
+    width: 100%;
+    height: 1000px;
+}
+
+.navbar {
+    background-color: var(--black-two);
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 120px 27px 97px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+.navbar__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.navbar__list li>div {
+    width: 1px;
+    height: 23px;
+    background-color: var(--pinkish-grey-two);
+}
+
+.navbar__list li {
+    font-size: 14px;
+    line-height: 2.14;
+    text-align: center;
+    color: var(--white);
+    cursor: pointer;
+}

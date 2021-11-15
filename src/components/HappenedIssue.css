@@ -1,0 +1,119 @@
+.issue {
+    padding-top: 158px;
+    height: 1143px;
+    mix-blend-mode: multiply;
+    background-color: var(--goldenrod);
+    position: relative;
+}
+
+.issue .text-box {
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.issue .text-box h3 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    color: var(--dark-brown);
+    margin-bottom: 40px;
+}
+
+.issue .text-box p {
+    font-family: NotoSansCJKkr;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    color: var(--dark-brown);
+    margin-bottom: 55px;
+}
+
+.issue .text-box button {
+    background-color: transparent;
+}
+
+.whpn-list {
+    display: flex;
+    width: 100%;
+    margin-top: 128px;
+    border: 3px solid var(--black-two);
+}
+
+.whpn-issue {
+    padding: 87px 101px 85px 97px;
+    background-color: var(--bright-orange-two);
+    border-right: solid 3px var(--black-two);
+}
+
+.whpn-img {
+    width: 120px;
+    height: 120px;
+    margin: 20px 0 0 30px;
+}
+
+.whpn-issue p {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.04;
+    text-align: center;
+    color: var(--dark-brown);
+    width: 189px;
+}
+
+.whpn-item {
+    width: 387px;
+    height: 413px;
+    overflow: hidden;
+}
+
+.brand-title {
+    border: 2px solid var(--black-two);
+    background-color: var(--dark-brown);
+    color: var(--white); font-size: 30px;
+    font-weight: 800;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.brand-img {
+    width: 100%;
+}
+
+#d-brand {
+    background-color: var(--bright-orange-two);
+}
+
+#new-obj-2 {
+    position: absolute;
+    top: 163px;
+    right: 68px;
+}
+
+#new-obj-3 {
+    top: 43px;
+    right: 70px;
+    position: absolute;
+}
+
+#new-obj-4 {
+    top: 527px;
+    left: 402px;
+    position: absolute;
+}
+
+#new-obj-5 {
+    bottom: 85px;
+    right: 353px;
+    position: absolute;
+}
+
+#new-obj-6 {
+    bottom: 57px;
+    left: 230px;
+    position: absolute;
+}
